@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FF5D58029ED9FDB009A8B5B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5D57F29ED9FDB009A8B5B /* CommentCell.swift */; };
+		8FF5D58229EDA1A8009A8B5B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5D58129EDA1A8009A8B5B /* Comment.swift */; };
 		C9CFBFF71F9B4B0300B9C6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFBFF61F9B4B0300B9C6B3 /* AppDelegate.swift */; };
 		C9CFBFF91F9B4B0300B9C6B3 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFBFF81F9B4B0300B9C6B3 /* CommentsViewController.swift */; };
 		C9CFBFFC1F9B4B0300B9C6B3 /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFBFFA1F9B4B0300B9C6B3 /* Comments.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FF5D57F29ED9FDB009A8B5B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		8FF5D58129EDA1A8009A8B5B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		C9CFBFF31F9B4B0300B9C6B3 /* MVC-N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-N.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFBFF61F9B4B0300B9C6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CFBFF81F9B4B0300B9C6B3 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				C9CFBFFA1F9B4B0300B9C6B3 /* Comments.storyboard */,
+				8FF5D57F29ED9FDB009A8B5B /* CommentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 		C9CFC00F1F9B4B9F00B9C6B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FF5D58129EDA1A8009A8B5B /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 			files = (
 				C9CFBFF91F9B4B0300B9C6B3 /* CommentsViewController.swift in Sources */,
 				C9CFBFF71F9B4B0300B9C6B3 /* AppDelegate.swift in Sources */,
+				8FF5D58029ED9FDB009A8B5B /* CommentCell.swift in Sources */,
+				8FF5D58229EDA1A8009A8B5B /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
