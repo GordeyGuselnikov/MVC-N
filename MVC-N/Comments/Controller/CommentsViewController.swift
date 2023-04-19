@@ -21,9 +21,6 @@ class CommentsViewController: UIViewController {
     }
 }
 
-
-
-
 extension CommentsViewController: UITableViewDelegate {}
 
 extension CommentsViewController: UITableViewDataSource {
@@ -38,5 +35,4 @@ extension CommentsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         comments.count
     }
-    
 }

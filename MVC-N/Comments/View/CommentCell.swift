@@ -16,5 +16,4 @@ class CommentCell: UITableViewCell {
         self.label.text = comment.name
         self.textView.text = comment.body
     }
-    
 }
