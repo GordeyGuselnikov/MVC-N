@@ -3,7 +3,6 @@
 //  MVC-N
 //
 //  Created by Guselnikov Gordey on 4/17/23.
-//  Copyright © 2023 Ivan Akulov. All rights reserved.
 //
 
 import Foundation
@@ -21,7 +20,9 @@ class NetworkService {
             
             do {
                 let json = try JSONSerialization.jsonObject(with: data, options: [])
-                print(json)
+                DispatchQueue.main.async {
+                    completion(json)
+                }
             } catch {
                 print(error)
             }

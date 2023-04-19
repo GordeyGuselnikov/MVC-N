@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8FB4CABA29F05D6300A381C9 /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4CAB929F05D6300A381C9 /* GetCommentResponse.swift */; };
+		8FB4CABD29F05EFF00A381C9 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4CABC29F05EFF00A381C9 /* NetworkError.swift */; };
 		8FF5D58029ED9FDB009A8B5B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5D57F29ED9FDB009A8B5B /* CommentCell.swift */; };
 		8FF5D58229EDA1A8009A8B5B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5D58129EDA1A8009A8B5B /* Comment.swift */; };
 		8FF5D58529EDA906009A8B5B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5D58429EDA906009A8B5B /* NetworkService.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8FB4CAB929F05D6300A381C9 /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		8FB4CABC29F05EFF00A381C9 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8FF5D57F29ED9FDB009A8B5B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		8FF5D58129EDA1A8009A8B5B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		8FF5D58429EDA906009A8B5B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FB4CABB29F05E8600A381C9 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4CAB929F05D6300A381C9 /* GetCommentResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		8FF5D58329EDA8CC009A8B5B /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		C9CFC0081F9B4B0E00B9C6B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FB4CABC29F05EFF00A381C9 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,8 +163,8 @@
 		C9CFC00F1F9B4B9F00B9C6B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FB4CABB29F05E8600A381C9 /* Responses */,
 				8FF5D58129EDA1A8009A8B5B /* Comment.swift */,
-				8FB4CAB929F05D6300A381C9 /* GetCommentResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FF5D58529EDA906009A8B5B /* NetworkService.swift in Sources */,
+				8FB4CABD29F05EFF00A381C9 /* NetworkError.swift in Sources */,
 				C9CFBFF91F9B4B0300B9C6B3 /* CommentsViewController.swift in Sources */,
 				C9CFBFF71F9B4B0300B9C6B3 /* AppDelegate.swift in Sources */,
 				8FB4CABA29F05D6300A381C9 /* GetCommentResponse.swift in Sources */,
@@ -393,7 +405,7 @@
 				DEVELOPMENT_TEAM = M9QM497LW6;
 				INFOPLIST_FILE = "$(SRCROOT)/MVC-N/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.MVC-N";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.home.MVC-N";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,7 +420,7 @@
 				DEVELOPMENT_TEAM = M9QM497LW6;
 				INFOPLIST_FILE = "$(SRCROOT)/MVC-N/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.MVC-N";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.home.MVC-N";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
